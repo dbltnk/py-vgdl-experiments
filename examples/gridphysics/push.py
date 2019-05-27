@@ -1,6 +1,6 @@
-# run this using 'python -m examples.gridphysics.push' from py-vgdl root
-# https://github.com/schaul/py-vgdl
-# https://github.com/EssexUniversityMCTS/gvgai/wiki/VGDL-Language
+# run this using 'python -m examples.gridphysics.push' from py-vgdl-experiments root
+# based on https://github.com/schaul/py-vgdl
+# documentation at https://github.com/EssexUniversityMCTS/gvgai/wiki/VGDL-Language
 
 '''
 Push: A simple board game
