@@ -116,6 +116,11 @@ class Passive(VGDLSprite):
     """ A square that may budge. """
     color = RED
 
+class Piece(Passive):
+    """ A square that may budge. """
+    color = RED
+    is_piece = True
+
 class Marker(VGDLSprite):
     """ Reverts back to a cursor when spawned in empty space. """
     color = YELLOW

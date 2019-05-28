@@ -24,7 +24,7 @@ BasicGame frame_rate=30
     SpriteSet
         cursor > CursorAvatar stype=marker cooldown=10 singleton=True
         marker > Marker stype=cursor
-        piece > Passive
+        piece > Piece
         pieceSelected > SelectedPiece cooldown=10 singleton=True color=BLUE stype=piece
         test > Passive color=GREEN
     LevelMapping

@@ -633,6 +633,7 @@ class VGDLSprite(object):
     only_active =False
     is_avatar= False
     is_stochastic = False
+    is_piece = False
     color    = None
     cooldown = 0 # pause ticks in-between two moves
     speed    = None
@@ -700,6 +701,10 @@ class VGDLSprite(object):
             rounded = roundedPoints(shrunk)
             pygame.draw.polygon(screen, self.color, rounded)
             pygame.draw.lines(screen, LIGHTGREEN, True, rounded, 2)
+            r = self.rect.copy()
+        if self.is_piece:
+            rounded = roundedPoints(shrunk)
+            pygame.draw.circle(screen, self.color, self.rect.center, 40, 0)
             r = self.rect.copy()
         elif not self.is_static:
             rounded = roundedPoints(shrunk)
